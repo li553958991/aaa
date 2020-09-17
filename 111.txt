@@ -1,1 +1,12 @@
-123212
+git config --global user.name ""
+git config --global user.email ""
+git init
+
+git add .   /  单个文件
+
+git commit -m '。。。。。'
+
+git status   查看当前本地状态
+
+git  diff  查看当前文件修改记录
+
