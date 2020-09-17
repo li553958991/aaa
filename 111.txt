@@ -19,3 +19,13 @@ git diff --cached：是查看index与repository的差别的。
 git diff HEAD：是查看working tree和repository的差别的。其中：HEAD代表的是最近的一次commit的信息。
 综上所述：git diff 后面跟文件名称是是查看工作区（working tree）与暂存区（index）的差别的。
 
+git log命令显示从最近到最远的提交日志
+
+git reset --hard head^   回退版本  ^ 表示上一个版本  或者 head~1
+
+
+git  reset  --head  版本号 恢复最新版本
+
+git reflog用来记录你的每一次命令
+
+
