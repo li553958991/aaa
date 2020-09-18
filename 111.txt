@@ -47,3 +47,28 @@ git reset HEAD file    还原 git  commit  后的状态
 
 2、git rm file  删除版本库中文件
 
+创建密钥
+
+ssh-keygen -t rsa -C "youremail@example.com"
+
+添加远程仓库
+
+git remote add origin git@github.com:michaelliao/learngit.git
+
+-u 参数 将本地master 与远程 master 关联，以后推送简化命令
+
+git push -u origin master
+
+克隆远程仓库
+
+git clone git@github.com:michaelliao/gitskills.git
+
+
+切换分支并 切换
+
+
+git checkout -b dev
+
+
+
+
