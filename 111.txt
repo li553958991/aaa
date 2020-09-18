@@ -47,3 +47,4 @@ git reset HEAD file    还原 git  commit  后的状态
 
 2、git rm file  删除版本库中文件
 
+测试1111111111111111
