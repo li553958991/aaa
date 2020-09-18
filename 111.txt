@@ -41,3 +41,9 @@ git checkout -- file    还原  git add .  后的状态
 
 git reset HEAD file    还原 git  commit  后的状态
 
+删除版本库中文件 2种方式
+
+1、 rm  file  删除工作区文件  在 git add .  git commit -m ''
+
+2、git rm file  删除版本库中文件
+
