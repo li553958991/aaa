@@ -35,3 +35,9 @@ git reflog用来记录你的每一次命令
 1111
 
 22222
+
+
+git checkout -- file    还原  git add .  后的状态
+
+git reset HEAD file    还原 git  commit  后的状态
+
