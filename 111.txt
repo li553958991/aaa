@@ -87,5 +87,22 @@ git switch -c dev
 
 
 
+准备合并dev分支，请注意--no-ff参数，表示禁用Fast forward：
 
-issut-101
+
+ git merge --no-ff -m "merge with no-ff" dev
+ 
+ 
+bug  分支
+
+
+Git还提供了一个stash功能，可以把当前工作现场“储藏”起来，等以后恢复现场后继续工作：
+
+git  stash
+
+ git stash list
+ 
+ git stash apply   git stash  drop
+ 
+ 
+git branch -D feature-vulcan   强制删除
